@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.matas.easyaccessemail.MenuActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bcu_logpng" />
+
+    <TextView
+        android:id="@+id/menutview"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:text="@string/menutview"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/sendNew"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/sendbutton"
+        android:text="send"
+        android:textColor="@color/sendtextcolor" />
+
+    <Button
+        android:id="@+id/button_inbox"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/inboxbutton"
+        android:text="inbox"
+        android:textColor="@color/inboxtextcolor" />
+
+
+</LinearLayout>
